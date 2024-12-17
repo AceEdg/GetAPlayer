@@ -1,0 +1,31 @@
+name: GetLyrices
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: '例：Pushing me away'
+        required: true
+        default: ''
+      author:
+        description: '例：Linking Park'
+        required: true
+        default: ''
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v4
+
+      - name: 检查环境
+        run: |
+          sudo apt update
+          sudo apt -y install curl
+          
+      - name: 配置环境
+        run: |
+          curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+          
