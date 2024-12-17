@@ -7,7 +7,7 @@ on:
         required: true
         default: ''
       author:
-        description: '例：Linking Park'
+        description: '例：Linkin Park'
         required: true
         default: ''
 
@@ -28,4 +28,31 @@ jobs:
       - name: 配置环境
         run: |
           curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+          pip install lyricsgenius
+
+      - name: 启动get
+        run: |
+          import lyricsgenius
+          genius = lyricsgenius.Genius(token)
+
+      - name: 下载歌词
+        run: |
+          python3 -m lyricsgenius song "Begin Again" "Andy Shauf" --save
+          python3 -m lyricsgenius album "The Party" "Andy Shauf" --save
+
+      - name: 打压缩包
+        run: |
+          cd ./out
+          zip -r -9 DeviceTree.zip ./*
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docker-images-tar
+          path: x86-64-images.tar.gz
+          retention-days: 7  
+
+      - name: Clean up intermediate files
+        run: |
+          rm *-amd64.tar
           
