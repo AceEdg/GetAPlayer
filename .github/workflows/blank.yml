@@ -37,22 +37,21 @@ jobs:
 
       - name: 下载歌词
         run: |
-          python3 -m lyricsgenius song "Begin Again" "Andy Shauf" --save
-          python3 -m lyricsgenius album "The Party" "Andy Shauf" --save
-
+          mkdir out
+          python3 -m lyricsgenius song "${{ github.event.inputs.author }}" "${{ github.event.inputs.title }}" --save
+          
       - name: 打压缩包
         run: |
-          cd ./out
-          zip -r -9 DeviceTree.zip ./*
+          zip -r -9 Lyric.zip ./*
 
-      - name: Upload artifact
+      - name: 上传到库
         uses: actions/upload-artifact@v4
         with:
-          name: docker-images-tar
-          path: x86-64-images.tar.gz
+          name: GetLyric
+          path: Lyric.zip
           retention-days: 7  
 
       - name: Clean up intermediate files
         run: |
-          rm *-amd64.tar
+          rm *.zip
           
