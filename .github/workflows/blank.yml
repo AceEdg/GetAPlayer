@@ -33,7 +33,7 @@ jobs:
       - name: 启动get
         run: |
           import lyricsgenius
-          genius = lyricsgenius.Genius(token)
+          genius = Genius()
 
       - name: 下载歌词
         run: |
