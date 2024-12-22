@@ -2,6 +2,7 @@
 
 ## 01.APlayer
 > 原项目地址：https://github.com/DIYgod/APlayer
+### 直接引入到 <body>
 ```
 <link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css">
 <div id="aplayer"></div>
