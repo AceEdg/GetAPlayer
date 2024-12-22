@@ -40,7 +40,7 @@
 	</pre>
 </meting-js>
 ```
-**↑↑↑代码可自定义修改**
+**↑↑↑代码可自定义修改(参数和APlayer原生配置差不多)**
 
 ## 02.xf-MusicPlayer
 > 原项目地址: https://gitee.com/xfwlclub/xf-MusicPlayer
