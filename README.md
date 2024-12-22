@@ -2,7 +2,7 @@
 
 ## 01.APlayer
 > 原项目地址：https://github.com/DIYgod/APlayer
-### 直接引入到 "<body>"
+### 直接引入到`<body>`
 ```
 <link rel="stylesheet" href="./aplayer/css/APlayer.min.css">
 <div id="aplayer"></div>
