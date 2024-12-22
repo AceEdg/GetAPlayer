@@ -52,6 +52,7 @@
 <!-- 引入插件 -->
 <script src="/xf-MusicPlayer/js/xf-MusicPlayer.min.js"></script>
 ```
+## (还是一样不想手动添加音源可以使用)[一键生成代码](https://gitee.com/link?target=https%3A%2F%2Fmusicplayer.xfyun.club%2F)插件
 
 ## 03.QPlayer
 > 原项目地址: https://github.com/Jrohy/QPlayer
