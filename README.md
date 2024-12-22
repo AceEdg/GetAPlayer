@@ -4,3 +4,6 @@
 > 原项目地址：https://github.com/DIYgod/APlayer
 
 ## 02.xf-MusicPlayer
+> 原项目地址: https://gitee.com/xfwlclub/xf-MusicPlayer
+>
+> 
