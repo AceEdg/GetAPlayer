@@ -2,6 +2,8 @@
 
 ## 01.APlayer
 > 原项目地址：https://github.com/DIYgod/APlayer
+>
+> MetingJS插件(是为 APlayer 添加网易云、QQ音乐等支持的插件): https://github.com/metowolf/MetingJS
 #### 直接引入到`<head>`
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AceEdg/GetaMusicPlayer@main/aplayer/css/APlayer.min.css">
@@ -10,9 +12,35 @@
 ```
 <div id="aplayer"></div>
 <script src="https://cdn.jsdelivr.net/gh/AceEdg/GetaMusicPlayer@main/aplayer/js/APlayer.min.js"></script>
+```
+#### 导入配置文件`APlayer-config.js`(文件在aplayer文件夹里)
+```
 <script src="./aplayer/APlayer-config.js"></script>
 ```
- `APlayer-config.js`**是配置文件，如要自定义可修改(文件在aplayer文件夹里)**
+ `APlayer-config.js`**文件可自定义修改**
+ 
+## 1.1(不想手动添加音源可以使用)APlayer+MetingJS插件
+#### 和上面一样直接引入到`<body>`(不需要删除任何代码)
+```
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+```
+***注意：MetingJS插件的配置文件无法和Aplayer原生配置文件互用***
+#### ↓↓↓所以这是MetingJS的配置代码，也是是直接引入`<body>`
+```
+<meting-js
+	name="rainymood"
+	artist="rainymood"
+	url="https://rainymood.com/audio1110/0.m4a"
+	cover="https://rainymood.com/i/badge.jpg"
+	fixed="true">
+	<pre hidden>
+		[00:00.00]This
+		[00:04.01]is
+		[00:08.02]lyric
+	</pre>
+</meting-js>
+```
+**↑↑↑代码可自定义修改**
 
 ## 02.xf-MusicPlayer
 > 原项目地址: https://gitee.com/xfwlclub/xf-MusicPlayer
