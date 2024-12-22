@@ -12,7 +12,7 @@
 <script src="https://cdn.jsdelivr.net/gh/AceEdg/GetaMusicPlayer@main/aplayer/js/APlayer.min.js"></script>
 <script src="./aplayer/APlayer-config.js"></script>
 ```
- `APlayer-config.js`**是配置文件，如要自定义可修改**
+ `APlayer-config.js`**是配置文件，如要自定义可修改(文件在aplayer文件夹里)**
 
 ## 02.xf-MusicPlayer
 > 原项目地址: https://gitee.com/xfwlclub/xf-MusicPlayer
