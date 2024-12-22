@@ -15,7 +15,7 @@
 ```
 #### 导入配置文件`APlayer-config.js`(文件在aplayer文件夹里)
 ```
-<script src="./aplayer/APlayer-config.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AceEdg/GetaMusicPlayer@35b60c41c02faecb68389bc78e63464168b819a0/aplayer/APlayer-config.js"></script>
 ```
  `APlayer-config.js`**文件可自定义修改,详情可自定义的参数可查看官方文档**`https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0`
  
