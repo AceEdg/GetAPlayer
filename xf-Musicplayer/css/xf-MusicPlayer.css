@@ -27,26 +27,6 @@
   --playerTextShadow-1: 0 0 1.5px rgba(85, 0, 255, 0.3);
   --playerTextShadow-2: 0 0 1.5px rgba(255, 255, 255, 0.8);
 }
-#xf-MusicPlayer .xf-cooldark {
-	--playerColor-1:#131516;
-	--playerColor-2:#fff;
-	--playerColor-3:#202425;
-	--playerColor-4:#c78b8b;
-	--playerColor-5:#cf6868;
-	--playerColor-6:#fff;
-	--playerColor-7:#fff;
-	--playerColor-8:#fff;
-	--playerColor-9:#efefef;
-	--playerColor-10:#fff;
-	--playerColor-11:#fff;
-	--playerColor-12:#fff;
-	--playerColor-rgab-1:rgba(0,0,0,0.3);
-	--playerColor-rgab-2:rgba(255,255,255,0.8);
-	--playerShadow-1:2px 2px 5px 0 rgba(139,0,0,0.35);
-	--playerShadow-2:-3.5px 3.5px 5px 0px rgba(255,255,255,0.25),inset -3.5px 3.5px 7px 0px rgba(0,0,0,.25);
-	--playerTextShadow-1:0 0 1.5px rgba(80,0,0,0.3);
-	--playerTextShadow-2:0 0 1.5px rgba(255,255,255,0.8);
-}
 #xf-MusicPlayer .xf-sky {
   --playerColor-1: #fff;
   --playerColor-2: #000;
@@ -146,6 +126,26 @@
   --playerShadow-2: -3.5px 3.5px 5px 0px rgba(255, 255, 255, 0.25), inset -3.5px 3.5px 7px 0px rgba(0, 0, 0, .25);
   --playerTextShadow-1: 0 0 1.5px rgba(255, 76, 240, 0.3);
   --playerTextShadow-2: 0 0 1.5px rgba(255, 255, 255, 0.8);
+}
+#xf-MusicPlayer .xf-deaddark {
+  --playerColor-1:#131516;
+  --playerColor-2:#fff;
+  --playerColor-3:#202425;
+  --playerColor-4:#c78b8b;
+  --playerColor-5:#cf6868;
+  --playerColor-6:#fff;
+  --playerColor-7:#fff;
+  --playerColor-8:#fff;
+  --playerColor-9:#efefef;
+  --playerColor-10:#fff;
+  --playerColor-11:#fff;
+  --playerColor-12:#fff;
+  --playerColor-rgab-1:rgba(0,0,0,0.3);
+  --playerColor-rgab-2:rgba(255,255,255,0.8);
+  --playerShadow-1:2px 2px 5px 0 rgba(139,0,0,0.35);
+  --playerShadow-2:-3.5px 3.5px 5px 0px rgba(255,255,255,0.25),inset -3.5px 3.5px 7px 0px rgba(0,0,0,.25);
+  --playerTextShadow-1:0 0 1.5px rgba(80,0,0,0.3);
+  --playerTextShadow-2:0 0 1.5px rgba(255,255,255,0.8);
 }
 #xf-MusicPlayer .xf-MusicPlayer-Main {
   --parentWidth: 350;
