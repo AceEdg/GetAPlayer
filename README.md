@@ -9,9 +9,18 @@
 <script src="./aplayer/js/APlayer.min.js"></script>
 <script src="./aplayer/APlayer-config.js"></script>
 ```
-__ `APlayer-config.js`是配置文件，如要自定义可修改 __
+ `APlayer-config.js`**是配置文件，如要自定义可修改**
 
 ## 02.xf-MusicPlayer
 > 原项目地址: https://gitee.com/xfwlclub/xf-MusicPlayer
->
-> 
+#### 直接引入到`<body>`
+```
+<!-- 配置播放器 -->
+<div id="xf-MusicPlayer"></div>
+
+<!-- 引入插件 -->
+<script src="/xf-MusicPlayer/js/xf-MusicPlayer.min.js"></script>
+```
+
+## 03.QPlayer
+> 原项目地址: https://github.com/Jrohy/QPlayer
