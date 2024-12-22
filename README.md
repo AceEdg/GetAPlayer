@@ -24,3 +24,5 @@
 
 ## 03.QPlayer
 > 原项目地址: https://github.com/Jrohy/QPlayer
+> 
+> WordPress版: https://github.com/Jrohy/QPlayer-WordPress-Plugin
