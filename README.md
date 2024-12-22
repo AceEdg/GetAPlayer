@@ -9,7 +9,7 @@
 #### 直接引入到`<body>`
 ```
 <div id="aplayer"></div>
-<script src="./aplayer/js/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AceEdg/GetaMusicPlayer@main/aplayer/js/APlayer.min.js"></script>
 <script src="./aplayer/APlayer-config.js"></script>
 ```
  `APlayer-config.js`**是配置文件，如要自定义可修改**
