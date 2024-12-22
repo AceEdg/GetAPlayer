@@ -17,7 +17,7 @@
 ```
 <script src="./aplayer/APlayer-config.js"></script>
 ```
- `APlayer-config.js`**文件可自定义修改**
+ `APlayer-config.js`**文件可自定义修改,详情可自定义的参数可查看官方文档**`https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0`
  
 ## 1.1(不想手动添加音源可以使用)APlayer+MetingJS插件
 #### 和上面一样直接引入到`<body>`(不需要删除任何代码)
