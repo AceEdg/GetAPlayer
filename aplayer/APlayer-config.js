@@ -1,6 +1,6 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-	fixed: true,
+	
 	theme: '#1890ff',
     audio: [{
         name: 'Papercut',
