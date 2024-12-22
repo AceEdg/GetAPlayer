@@ -2,9 +2,12 @@
 
 ## 01.APlayer
 > 原项目地址：https://github.com/DIYgod/APlayer
-#### 直接引入到`<body>`
+#### 直接引入到`<head>`
 ```
 <link rel="stylesheet" href="./aplayer/css/APlayer.min.css">
+```
+#### 直接引入到`<body>`
+```
 <div id="aplayer"></div>
 <script src="./aplayer/js/APlayer.min.js"></script>
 <script src="./aplayer/APlayer-config.js"></script>
@@ -26,3 +29,9 @@
 > 原项目地址: https://github.com/Jrohy/QPlayer
 > 
 > WordPress版: https://github.com/Jrohy/QPlayer-WordPress-Plugin
+>
+> Z-Blog版: https://moeshin.com/archives/QPlayer2-ZBlog.html
+#### 直接引入到`<head>`
+```
+<link rel="stylesheet" href="css/player.css">
+```
