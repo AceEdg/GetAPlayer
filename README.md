@@ -30,7 +30,15 @@
 > 
 > WordPress版: https://github.com/Jrohy/QPlayer-WordPress-Plugin
 >
+> https://moeshin.com/archives/QPlayer2-WordPress.html
+>
 > Z-Blog版: https://moeshin.com/archives/QPlayer2-ZBlog.html
+>
+>   https://github.com/moeshin/QPlayer2-ZBlog
+>
+> Typecho版：https://moeshin.com/archives/QPlayer2-Typecho.html
+>
+>   https://github.com/moeshin/QPlayer2-Typecho
 #### 直接引入到`<head>`
 ```
 <link rel="stylesheet" href="css/player.css">
