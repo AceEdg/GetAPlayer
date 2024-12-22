@@ -4,7 +4,7 @@
 > 原项目地址：https://github.com/DIYgod/APlayer
 #### 直接引入到`<head>`
 ```
-<link rel="stylesheet" href="./aplayer/css/APlayer.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AceEdg/GetaMusicPlayer@main/aplayer/css/APlayer.min.css">
 ```
 #### 直接引入到`<body>`
 ```
